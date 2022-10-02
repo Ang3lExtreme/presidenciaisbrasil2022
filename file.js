@@ -14,7 +14,7 @@ function elec(){
       console.log("Data e Hora: "+date.getDate()+"/"+date.getMonth()+"/"+date.getFullYear() +" "+date.getHours()+":"+date.getMinutes());
       
       r.cand.map(cand => {
-        console.log(cand.nm,cand.pvap+"%")
+        console.log(cand.nm,cand.pvap+"% "+"votos:"+ cand.vap)
       })
       console.log("\n");
 
